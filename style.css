@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#desktop {
+    background-color: #008080; /* Color de fondo estilo Windows */
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.window {
+
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.window-header {
+    background-color: #008080;
+    color: #fff;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.window-title {
+    font-weight: bold;
+}
+
+.window-close-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.window-content {
+    width: 20rem;
+    padding: 20px;
+}

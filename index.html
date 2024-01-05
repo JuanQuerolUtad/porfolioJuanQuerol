@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi Portfolio</title>
+</head>
+<body>
+    <div id="desktop">
+        <!-- Ventanas de Windows -->
+        <div id="projectos" class="window">
+            <div class="window-header">
+                <span class="window-title">Proyectos</span>
+                <button class="window-close-btn" onclick="closeWindow('projectos')">X</button>
+            </div>
+            <!-- Contenido de proyectos -->
+            <div class="window-content">
+                <!-- Tus proyectos aquí -->
+            </div>
+        </div>
+
+        <div id="about" class="window">
+            <div class="window-header">
+                <span class="window-title">Sobre mí</span>
+                <button class="window-close-btn" onclick="closeWindow('about')">X</button>
+            </div>
+            <!-- Contenido "Sobre mí" -->
+            <div class="window-content">
+                <!-- Información personal aquí -->
+            </div>
+        </div>
+
+        <div id="skills" class="window">
+            <div class="window-header">
+                <span class="window-title">Especialidades</span>
+                <button class="window-close-btn" onclick="closeWindow('skills')">X</button>
+            </div>
+            <!-- Contenido de especialidades -->
+            <div class="window-content">
+                <!-- Tus habilidades y especialidades aquí -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript para controlar las ventanas -->
+    <script src="script.js"></script>
+</body>
+</html>
